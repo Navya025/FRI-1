@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['box']
+
+roboflow:
+  workspace: elevatorfloorrecognition
+  project: elevator_box_recognition
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/elevatorfloorrecognition/elevator_box_recognition/dataset/1
